@@ -1,0 +1,23 @@
+{
+  "name": "rn-alipay",
+  "description": "react native支付宝移动双支付模块",
+  "author": "chenmingkang",
+  "contributors": [
+    {
+      "name": "chenmingkang",
+      "email": "a623109618@163.com"
+    }
+  ],
+  "keywords": [
+    "alipay",
+    "rn-alipay",
+    "react-native-alipay",
+    "pay",
+    "支付宝",
+    "支付"
+  ],
+  "license": "MT",
+  "main": "rn-alipay.js",
+  "nativePackage": true,
+  "version": "0.1.0"
+}
