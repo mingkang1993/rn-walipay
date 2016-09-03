@@ -8,8 +8,8 @@ react-native 支付宝手机支付模块
 3. 在XCode中右击项目的 `Libraries` 文件夹 ➜ `Add Files to`
 4. 进入 `node_modules` ➜ `rn-alipay` ➜ `ios` ➜ 选择 `RNAlipay.xcodeproj`
 5. 展开`RNAlipay.xcodeproj`➜ `Products`➜ 添加 `libRNAlipay.a` 到`Build Phases -> Link Binary With Libraries`
-6. 在`Build Phases`选项卡的`Link Binary With Libraries`中，点击“+”号增加以下依赖：<img title="iOS" src="https://github.com/mingkang1993/rn-alipay/blob/master/assets/1.jpg">
-7. 将`RNAlipay.xcodeproj`下`AlipaySDK.framework`、`libssl.a`、`libcrypto.a`文件拖入复制到项目文件夹下：<img title="iOS" src="https://github.com/mingkang1993/rn-alipay/blob/master/assets/0.jpg">
+6. 在`Build Phases`选项卡的`Link Binary With Libraries`中，点击“+”号增加以下依赖：<img title="iOS" src="https://github.com/mingkang1993/react-native-alipay/blob/master/assets/1.jpg">
+7. 将`RNAlipay.xcodeproj`下`AlipaySDK.framework`、`libssl.a`、`libcrypto.a`文件拖入复制到项目文件夹下：<img title="iOS" src="https://github.com/mingkang1993/react-native-alipay/blob/master/assets/0.jpg">
 8. 编译运行
 
 
