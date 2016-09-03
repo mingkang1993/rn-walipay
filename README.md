@@ -1,4 +1,4 @@
-# rn-alipay
+# rn-walipay
 react-native 支付宝手机支付模块
 
 # 安装
