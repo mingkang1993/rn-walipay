@@ -1,7 +1,8 @@
 {
-  "name": "rn-walipay",
-  "description": "react native支付宝移动双支付模块",
-  "author": "chenmingkang",
+  "name": "react-native-alipay",
+  "version": "1.0.0",
+  "description": "react-native 支付宝手机支付模块",
+  "main": "rn-walipay.js",
   "contributors": [
     {
       "name": "chenmingkang",
@@ -17,8 +18,17 @@
     "支付宝",
     "支付"
   ],
-  "license": "MT",
-  "main": "rn-alipay.js",
-  "nativePackage": true,
-  "version": "0.1.0"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingkang1993/react-native-alipay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mingkang1993/react-native-alipay/issues"
+  },
+  "homepage": "https://github.com/mingkang1993/react-native-alipay#readme"
 }
