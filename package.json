@@ -1,5 +1,5 @@
 {
-  "name": "rn-alipay",
+  "name": "rn-walipay",
   "description": "react native支付宝移动双支付模块",
   "author": "chenmingkang",
   "contributors": [
@@ -10,6 +10,7 @@
   ],
   "keywords": [
     "alipay",
+    "rn-walipay",
     "rn-alipay",
     "react-native-alipay",
     "pay",
