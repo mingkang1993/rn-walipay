@@ -3,7 +3,7 @@ react-native 支付宝手机支付模块
 
 # 安装
 ##iOS
-1. `npm install rn-alipay --save`
+1. `npm install https://github.com/mingkang1993/rn-walipay.git --save`
 2. 去官方下ios android 包,放入 android/libs下面
 3. 在XCode中右击项目的 `Libraries` 文件夹 ➜ `Add Files to`
 4. 进入 `node_modules` ➜ `rn-alipay` ➜ `ios` ➜ 选择 `RNAlipay.xcodeproj`
@@ -14,7 +14,7 @@ react-native 支付宝手机支付模块
 
 
 ##Android
-* `npm install rn-alipay --save`
+* `npm install https://github.com/mingkang1993/rn-walipay.git --save`
 ```java
 // file: android/settings.gradle
 ...
