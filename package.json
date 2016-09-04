@@ -1,5 +1,5 @@
 {
-  "name": "react-native-alipay",
+  "name": "reactrn-walipay",
   "version": "1.0.0",
   "description": "react-native 支付宝手机支付模块",
   "main": "rn-walipay.js",
