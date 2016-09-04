@@ -90,7 +90,7 @@ public class MainActivity extends ReactActivity {
 ##使用说明
 1. 导入模块
 ```javascript
-const Alipay = require('rn-alipay');
+const Alipay = require('rn-walipay');
 ```
 2. 基本使用
 ```javascript
