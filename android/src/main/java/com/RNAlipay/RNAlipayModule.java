@@ -1,26 +1,14 @@
 package com.alipay;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
-import java.util.Random;
-
-import android.app.Activity;
-import android.os.Handler;
-import android.os.Message;
 import android.text.TextUtils;
-import android.view.View;
-
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
+import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactMethod;
-import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReadableMap;
-import com.facebook.react.bridge.ReadableType;
 import com.facebook.react.bridge.Promise;
+import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 import com.alipay.sdk.app.PayTask;
 
@@ -36,6 +24,14 @@ public class RNAlipayModule extends ReactContextBaseJavaModule {
   	public String getName() {
     	return "RNAlipay";
   	}
+
+  	private void sendEvent(ReactContext reactContext,
+                           String eventName,
+						   Boolean params) {
+    reactContext.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
+         .emit(eventName, params);
+    }
+
 
   	@ReactMethod
   	public void pay(ReadableMap options, Promise promise) {
@@ -55,5 +51,6 @@ public class RNAlipayModule extends ReactContextBaseJavaModule {
 		String result = alipay.pay(payInfo);
 		//cb.invoke(result);
 		promise.resolve(result);
+		sendEvent(mReactContext, "rnAlipayCallback", true);
     }
 }
