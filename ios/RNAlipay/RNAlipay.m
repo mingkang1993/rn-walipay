@@ -44,7 +44,7 @@ RCT_EXPORT_MODULE();
         NSLog(@"orderString = %@", @"支付成功啦啦啦啦！");
     }];
     
-    [instancea.bridge.eventDispatcher sendAppEventWithName:@"rnAlipayCallback"
+    [instancea.bridge.eventDispatcher sendAppEventWithName:@"rnAlipaySuccess"
                                                      body:@"true"];
 
 }

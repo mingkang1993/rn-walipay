@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/Users/kangdaye/hipacWork/ytmallApp/ytmallApp/node_modules/rn-alipay/android/build/intermediates/exploded-aar/com.facebook.react/react-native/0.20.1/res/values-fb/values-fb.xml -->
+    <eat-comment/>
     <string name="catalyst_debugjs">[Debug JS#2010fa256bd28603b686da2713bb843a:1]</string>
     <string name="catalyst_element_inspector">[Show Inspector#c1b106c92869437ebd88f326d632b973:1]</string>
     <string name="catalyst_jsload_error">[Unable to download JS bundle#51057ecd2555f91873cce4c452e1ea03:1]</string>
